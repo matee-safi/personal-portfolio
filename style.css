@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.projects{
+    background-color: #45567D;
+    height: 120vh;
+    padding: 40px 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects h2{
+    padding: 5px;
+    margin-bottom: 2px solid #ffffff;
+}
+
+.project-tile{
+    flex: 30%;
+    width: 350px;
+    height: 300px;
+}
+
+.project-tile a{
+    color: #ffffff;
+}
+
+.project-tile a img{
+    height: 80%;
+    width: 350px;
+}
+
+.project-tile a p{
+    height: 20%;
+}
