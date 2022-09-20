@@ -8,34 +8,123 @@ a{
     text-decoration: none;
 }
 
+nav{
+    width:100%;
+    height: 57px;
+    padding: 20px;
+
+}
+ 
+nav a{
+    padding: 20px;
+}
+
+nav a:hover{
+    background-color: #45567D;
+}
+
+
 .projects{
     background-color: #45567D;
-    height: 120vh;
-    padding: 40px 5px;
-    display: flex;
-    flex-wrap: wrap;
+    /* height: 120vh; */
+    padding: 40px 10px;
 }
 
 .projects h2{
-    padding: 5px;
-    margin-bottom: 2px solid #ffffff;
+    font-size: 30px;
+    padding: 10px;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    width: 33%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
 }
 
 .project-tile{
-    flex: 30%;
-    width: 350px;
-    height: 300px;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.project-tile a{
+.project-tile .image-container{
+    height: 300px;
+    width: 100%;
+    
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.project-tile .link-container{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #303841;
+    padding: 15px 0;
+}
+
+.link-container a{
+    color: #ffffff;
+    font-size: 18px;
+    
+}
+
+.show-all{
+    margin-top: 70px;
+    width: 100px;
+    margin: auto;
+    background-color: #303841;
+    padding: 20px;
+}
+
+.show-all a{
+    text-align: center;
     color: #ffffff;
 }
 
-.project-tile a img{
-    height: 80%;
-    width: 350px;
+
+
+#contact{
+    width: 100%;
+    height: 500px;
+    height: 60vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #303841;
+    color: #ffffff;
 }
 
-.project-tile a p{
-    height: 20%;
+.contact{
+    text-align: center;
+
+
+}
+
+#contact h2{
+    padding: 80px;
+    text-align: center;
+    height: 40px;
+}
+
+#contact h2 a{
+    padding: 20px 20px;
+    color: #ffffff;
+}
+
+
+
+footer{
+    height: 50px;
+    background-color: #303841;
+    border-top: 4px solid #BE3144;
 }
